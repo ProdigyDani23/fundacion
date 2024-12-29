@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: #f9f9f9;
+    background: #f0f8ff; /* Azul cielo claro */
     color: #333;
 }
 
 header {
-    background: linear-gradient(90deg, #4caf50, #2e7d32);
+    background: linear-gradient(90deg, #87ceeb, #4682b4); /* Tonos azul cielo */
     color: #fff;
     padding: 2rem 1rem;
     text-align: center;
@@ -21,7 +21,7 @@ header h1 {
 }
 
 nav {
-    background: #2e7d32;
+    background: #4682b4; /* Azul complementario más oscuro */
     color: #fff;
     padding: 1rem 0;
     display: flex;
@@ -61,7 +61,7 @@ section {
 
 section h2 {
     margin-top: 0;
-    color: #2e7d32;
+    color: #4682b4;
 }
 
 .gallery {
@@ -91,7 +91,7 @@ form input, form textarea, form button {
 }
 
 form button {
-    background: #4caf50;
+    background: #87ceeb;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -99,12 +99,12 @@ form button {
 }
 
 form button:hover {
-    background: #2e7d32;
+    background: #4682b4;
 }
 
 footer {
     text-align: center;
-    background: #2e7d32;
+    background: #4682b4;
     color: #fff;
     padding: 1rem;
     margin-top: 2rem;
@@ -113,3 +113,4 @@ footer {
 footer p {
     margin: 0;
 }
+
